@@ -32,6 +32,6 @@ jobs:
           file: ./Dockerfile
           push: true
           # The tag of the image, including the repository and image name
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devEnv:ubuntu
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devenv:ubuntu
           # Platforms to build the image for
           platforms: linux/amd64,linux/arm64,linux/arm/v7
